@@ -1,6 +1,6 @@
 {
   "name": "qveditor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a simple yet feature rich html editor built on quill and vue",
   "private": false,
   "author": "Shivansh Talwar",
@@ -25,5 +25,9 @@
     "uuid": "^3.4.0",
     "vue": "^2.6.11"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "rollup-plugin-vue": "^5.1.6",
+    "vue-template-compiler": "^2.6.11"
+  }
 }

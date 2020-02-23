@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f75b4522-cc36-43b9-b1bc-145852101e8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/example.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bili.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/bili.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QVEditor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/QVEditor.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -48,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582393363517</updated>
       <workItem from="1582393364974" duration="4072000" />
-      <workItem from="1582443219539" duration="932000" />
+      <workItem from="1582443219539" duration="1824000" />
     </task>
     <servers />
   </component>
@@ -56,21 +57,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="175" key="GridCell.Tab.0.bottom" timestamp="1582394126144">
+    <state width="1259" height="175" key="GridCell.Tab.0.bottom" timestamp="1582444284882">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1582394126144" />
-    <state width="1259" height="175" key="GridCell.Tab.0.center" timestamp="1582394126141">
+    <state width="1259" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1582444284882" />
+    <state width="1259" height="175" key="GridCell.Tab.0.center" timestamp="1582444284881">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1582394126141" />
-    <state width="1259" height="175" key="GridCell.Tab.0.left" timestamp="1582394126141">
+    <state width="1259" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1582444284881" />
+    <state width="1259" height="175" key="GridCell.Tab.0.left" timestamp="1582444284880">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1582394126141" />
-    <state width="1259" height="175" key="GridCell.Tab.0.right" timestamp="1582394126142">
+    <state width="1259" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1582444284880" />
+    <state width="1259" height="175" key="GridCell.Tab.0.right" timestamp="1582444284881">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1582394126142" />
+    <state width="1259" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1582444284881" />
   </component>
 </project>
