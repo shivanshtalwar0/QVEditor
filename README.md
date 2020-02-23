@@ -2,6 +2,9 @@
 ##### Simple yet feature rich Quill based text editor for Vue.js
 ##### Best Suited for all kinds of text related formatting
 
+#### Preview
+![preview image](https://github.com/shivanshtalwar0/QVEditor/raw/master/images/preview.png)
+
 #### Install
     npm install QVEditor --save
 
