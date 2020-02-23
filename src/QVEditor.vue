@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div :id="'toolbar-container-'+toolbarKey">
+        <div class="toolbar-container" :id="'toolbar-container-'+toolbarKey">
             <span class="ql-formats">
                 <select class="ql-align"></select>
                 <select class="ql-font">
@@ -26,7 +26,7 @@
         </span>
 
         </div>
-        <div :id="'editor-container-'+editorKey" v-html="value">
+        <div class="editor-container" :id="'editor-container-'+editorKey" v-html="value">
         </div>
     </div>
 </template>
@@ -130,9 +130,13 @@
 
     @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Raleway|Roboto|Slabo+27px&display=swap');
 
-    #editor-container {
+    .editor-container {
         font-family: "sans-serif";
-        font-size: 18px;
+        height: auto;
+        width: 100%;
+    }
+    .toolbar-container {
+        font-family: "sans-serif";
         height: auto;
         width: 100%;
     }

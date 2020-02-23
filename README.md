@@ -5,27 +5,52 @@
 #### Install
     npm install QVEditor --save
 
-#### API & Usage 
+#### API & Usage
+##### without SSR(server side rendering) 
     <template>
-    
-    <QVEditor :value="initialEditorContent" @onHtmlChange="gethtmlcontent"/>
-    
+        <div>
+            <q-v-editor :value="htmlcontent" @onHtmlChange="onHtmlChange"></q-v-editor>
+            
+            <h2>Generated html</h2>
+            <div v-html="generatedhtml">
+            </div>
+            
+        </div>
     </template>
+    
     <script>
-    import QVEditor from 'QVEditor'
-    export default{
-    methods:{
-    gethtmlcontent(html){
-    console.log(html)
-    },
-    data(){
-    return{
-    initialEditorContent:"<p>hello world</p>"
-    }
-    }
+        import QVEditor from "qveditor";
+        import Vue from 'vue'
+        Vue.use(QVEditor)
+        export default {
+            name: "example",
+            methods:{
+              onHtmlChange(data){
+                  this.generatedhtml=data
+              }  
+            },
+            data(){
+                return{
+                    htmlcontent:"<p>hello</p>",
+                    generatedhtml:""
+                }
+            }
+        }
+    </script>
     
-    }
+    <style scoped>
     
-    }
-    
-    </script>    
+    </style>
+
+##### with SSR using Nuxt.js
+ step 1:`create qveditor.js in plugins directory with following content`
+        
+        import Vue from 'vue'
+        import QVEditor from 'qveditor'
+        Vue.use(QVEditor)
+step 2: `in plugins array of nuxt.config.js add the following content`
+            
+            plugins: [
+            {src:"@/plugins/qveditor",ssr:false}
+            ],
+  
