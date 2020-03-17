@@ -12,7 +12,7 @@
 ##### without SSR(server side rendering) 
     <template>
         <div>
-            <q-v-editor :value="htmlcontent" @onHtmlChange="onHtmlChange"></q-v-editor>
+            <q-v-editor :value="htmlcontent" @OnHtmlChange="onHtmlChange"></q-v-editor>
             
             <h2>Generated html</h2>
             <div v-html="generatedhtml">
