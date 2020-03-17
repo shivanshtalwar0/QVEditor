@@ -6,7 +6,7 @@
 ![preview image](https://github.com/shivanshtalwar0/QVEditor/raw/master/images/preview.png)
 
 #### Install
-    npm install QVEditor --save
+    npm install qveditor --save
 
 #### API & Usage
 ##### without SSR(server side rendering) 
